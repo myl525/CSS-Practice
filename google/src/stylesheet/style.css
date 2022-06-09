@@ -1,0 +1,145 @@
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.navbar {
+    font-family: sans-serif;
+    height: 40px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.navbar-left li {
+    margin-right: 24px;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-right li {
+    position: relative;
+    margin-left: 15px;
+}
+
+.navbar a {
+    color: black;
+}
+
+.link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.circle-shadow {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-shadow:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.menu, .user span{
+    font-size: 18px;
+}
+
+.menu-tooltip {
+    text-align: center;
+    visibility: hidden;
+    background-color: rgb(89, 88, 88);
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 110%;
+    padding: 6px 6px 6px 6px;
+    border-radius: 6px;
+    white-space: nowrap;
+}
+
+.circle-shadow:hover .menu-tooltip {
+    visibility: visible;
+}
+
+.user span{
+    color: white;
+}
+
+.user {
+    background-color: rgb(74, 4, 136);
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-tooltip {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    visibility: hidden;
+    background-color: rgb(89, 88, 88);
+    font-size: 14px;
+    font-family: sans-serif;
+    position: absolute;
+    top:110%;
+    right: 1%;
+    padding: 6px 6px 6px 6px;
+    border-radius: 6px;
+    row-gap: 3px;
+    white-space: nowrap;
+}
+
+.circle-shadow:hover .user-tooltip {
+    visibility: visible;
+}
+
+.logo-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 65%;
+    border: solid red;
+}
+
+.logo {
+    height: 35%;
+}
+
+section {
+    height: 90%;
+    border: solid yellow;
+}
+
+.section-container {
+    height: 50%;
+    border: solid green;
+}
