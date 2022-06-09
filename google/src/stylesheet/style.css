@@ -1,3 +1,4 @@
+
 li {
     list-style-type: none;
 }
@@ -9,14 +10,18 @@ a {
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height:100vh;
+    margin: 0;
+    padding: 0;
 }
+
 
 .navbar {
     font-family: sans-serif;
     height: 40px;
     font-size: 14px;
     display: flex;
+    padding: 6px 6px 6px 6px;
     justify-content: space-between;
 }
 
@@ -25,21 +30,18 @@ body {
     flex-direction: row;
     align-items: center;
     padding-left: 20px;
-}
-
-.navbar-left li {
-    margin-right: 24px;
+    gap: 24px;
 }
 
 .navbar-right {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    gap: 15px;
 }
 
 .navbar-right li {
     position: relative;
-    margin-left: 15px;
 }
 
 .navbar a {
@@ -126,23 +128,19 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    height: 65%;
-    border: solid red;
+    height: 70%;
 }
 
 .logo {
     height: 35%;
-    padding-bottom: 10px;
 }
 
 section {
-    height: 90%;
-    border: solid yellow;
+    height: 85%;
 }
 
 .section-container {
     height: 50%;
-    border: solid green;
 }
 
 .search-container {
@@ -152,13 +150,12 @@ section {
     align-items: center;
     justify-content: flex-start;
     height: 25%;
-    border: solid pink;
 }
 
 .search-bar {
     border: 1px solid lightgray;
     width: 35%;
-    height: 35%;
+    height: 45%;
     border-radius: 30px;
     display: flex;
     align-items: center;
@@ -173,7 +170,7 @@ section {
 .search-bar-input {
     border: none;
     height: 80%;
-    width: 80%;
+    width: 50%;
     flex-grow: 1;
     font-size: 16px;
 }
@@ -191,7 +188,6 @@ section {
 }
 
 .search-btns {
-    border: solid blue;
     margin-top: 1%;
     padding-bottom: 10px;
     height: 40%;
@@ -244,4 +240,44 @@ section {
     align-items: flex-end;
     justify-content: center;
     gap: 5px;
+}
+
+.footer-container {
+    margin-top: 60px;
+    display: flex;
+    height: 48px;
+    align-items: center;
+    background-color: rgb(234, 232, 232);
+    justify-content: space-between;
+}
+
+.footer-left {
+    font-family: sans-serif;
+    font-size: 14px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.footer-middle {
+    font-family: sans-serif;
+    font-size: 14px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.footer-right {
+    font-family: sans-serif;
+    font-size: 14px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    padding-right: 20px;
 }
