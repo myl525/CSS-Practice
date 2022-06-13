@@ -10,10 +10,16 @@
     overflow-x: hidden;
 }
 
+a {
+    text-decoration: underline;
+    color: inherit;
+}
+
 .header {
     height:654px;
     background: url(../img/header-background.jpg) no-repeat center center;
     background-size: cover;
+    font-family: Graphik Web Regular;
 }
 
 
@@ -40,7 +46,6 @@
     white-space: nowrap;
     height:  40px;
     width: 84.55px;
-    font-family: sans-serif;
     color: #A8AFBD;
     font-size: 14px;
     font-weight: bold;
@@ -65,9 +70,9 @@
 }
 
 .info-top {
-    font-family: sans-serif;
     color: #00ED82;
     font-size: 12px;
+    font-weight: bold;
 }
 
 .header-info-img {
@@ -79,9 +84,10 @@
 .info-second {
     text-align: center;
     width: 650px;
-    font-family: sans-serif;
     font-size: 24px;
     color: white;
+    font-family: Graphik Web Regular;
+    font-weight: bold;
 }
 
 .info-btn {
@@ -101,17 +107,18 @@
     transition: 0.5s;
 }
 
-.info-bottom-first {
+.grey-small-text {
     color: #FFFFFF99;
     font-size: 10px;
     font-family: sans-serif;
+    text-align: center;
 }
 
-.info-bottom-first span {
+.grey-small-text span {
     text-decoration: underline;
 }
 
-.info-bottom-first span:hover {
+.grey-small-text span:hover {
     cursor: pointer;
 }
 
@@ -122,9 +129,181 @@
     font-size: 16px;
     text-decoration: underline;
     text-decoration-thickness: 1px;
+    text-align: center;
 }
 
 .info-bottom-second:hover {
     text-decoration-color: rgb(129, 128, 128);
     cursor: pointer;
+}
+
+.section-one {
+    height: 1415px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Graphik Web Regular;
+}
+
+.section-one-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.green-small-text {
+    font-weight: bold;
+    color: #00ED82;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+.white-large-text {
+    color: white;
+    font-family: Graphik Web Regular;
+    font-size: 48px;
+    margin-top: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.white-small-text {
+    color: white;
+    font-size: 16px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.section-one-btns {
+    margin-top: 60px;
+    display: flex;
+    gap: 20px;
+}
+
+.section-one-btn-one {
+    position: relative;
+    background: url(/src/img/section-one-imageOne.jpg);
+    height: 450px;
+    width: 294px;
+}
+
+.section-one-btn-two {
+    position: relative;
+    background: url(/src/img/section-one-imageTwo.jpg);
+    height: 450px;
+    width: 294px;
+}
+
+.section-one-btn-three {
+    position: relative;
+    background: url(/src/img/section-one-imageThree.jpg);
+    background-size: cover;
+    height: 450px;
+    width: 294px;
+}
+
+.section-one-btn-four {
+    position: relative;
+    background: url(/src/img/section-one-imageFour.jpg);
+    background-size: cover;
+    height: 450px;
+    width: 294px;
+}
+
+.section-one-btn::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.25);
+}
+
+.section-one-btn:hover {
+    cursor: pointer;
+}
+
+.section-one-btn-four-bottom-text {
+    font-size: 10px;
+    color: white;
+    margin-top: 163%;
+    margin-left: 0;
+    width: 294px;
+    text-align: left;
+    opacity: 0.75;
+}
+
+.btn-text {
+    font-weight: bold;
+    position: absolute;
+    color: white;
+    top: 25px;
+    left: 20px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.btn-text-line1 {
+    font-size: 16px;
+}
+
+.btn-text-line2 {
+    font-size: 24px;
+}
+
+.section-one-footer {
+    margin-top: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    font-family: Graphik Web Regular;
+    width: 820px;
+    font-stretch: expanded;
+    padding: 8px 0px;
+}
+
+.section-one-footer-text1 {
+    color: #00ED82;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.section-one-footer-text2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+}
+
+.section-one-footer-text3 {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.section-one-footer-text4 {
+    font-size: 10px;
+    color: #FFFFFF99;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.section-one-footer-text5 {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.8;
 }
