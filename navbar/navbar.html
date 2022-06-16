@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbars</title>
+    <link rel="stylesheet" href="./src/stylesheet/style.css">
+    <script src="https://kit.fontawesome.com/4468fd0532.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--first-->
+    <div class="navbar1-container">
+        <div class="navbar1-left">
+            <div class="navbar1-icon">
+                <p>Navbar1</p>
+            </div>
+            <ul class="navbar1-options">
+                <li class="navbar1-home">Home</li>
+                <li class="navbar1-link">Link</li>
+                <li class="navbar1-disabled">Disabled</li>
+                <li class="navbar1-dropdown">
+                    Dorpdown
+                    <div class="navbar1-dropdown-options-wrapper">
+                        <a href="">Action1</a>
+                        <a href="">Action2</a>
+                        <hr>
+                        <a href="">Something else</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="navbar1-right">
+            <ul class="navbar1-options">
+                <li>Test</li>
+                <li>Test</li>
+            </ul>
+            <div class="navbar1-searchForm">
+                <input type="text" placeholder="search">
+                <button>Search</button>
+            </div>
+        </div>
+    </div>
+    <!--second-->
+    <div class="navbar2">
+        <div class="navbar2-links-container">
+            <ul class="navbar2-links">
+                <li class="navbar2-link"><a href="">Home</a></li>
+                <li class="navbar2-link"><a href="">About</a></li>
+                <li class="navbar2-link navbar2-dropdown">
+                    <a href="">Our Service <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="navbar2-dropdown-menu">
+                        <a href="">service1</a>
+                        <a href="">service2</a>
+                        <a href="">service2</a>
+                    </div>
+                </li>
+                <li class="navbar2-link"><a href="">Contact Us</a></li>
+                <li class="navbar2-link">
+                    <a href="">Call</a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar2-logos-container">
+            <div class="navbar2-logos">
+                <li>
+                    <i class="fa-brands fa-facebook-square"></i>
+                </li>
+                <li>
+                    <i class="fa-brands fa-twitter-square"></i>
+                </li>
+                <li>
+                    <i class="fa-brands fa-instagram-square"></i>
+                </li>
+            </div>
+        </div>
+    </div>
+
+    <!--Third-->
+    <div id="navbar3">
+        <div id="navbar3-logo-wrapper">
+            <p>Logo here</p>
+        </div>
+
+        <div id="navbar3-links-wrapper">
+            <ul id="navbar3-links">
+                <li class="navbar3-link">
+                    <a class="navbar3-active-link" style="color:white" href="">Home</a>
+                </li>
+                <li class="navbar3-link">
+                    <a class="navbar3-inactive-link" href="">Link</a>
+                </li>
+                <li id="navbar3-dropdown" class="navbar3-link">
+                    <a class="navbar3-inactive-link" href="">Dorpdown <i class="fa-solid fa-caret-down"></i></a>
+                    <div id="navbar3-dropdown-menu">
+                        <a class="navbar3-dropdown-link" href="">Action1</a>
+                        <a class="navbar3-dropdown-link" href="">Action2</a>
+                        <div id="navbar3-dropdown-divider"></div>
+                        <a class="navbar3-dropdown-link" href="">Something Else</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--Fourth-->
+    <div id="navbar4">
+        <div id="navbar4-left">
+            <div id="navbar4-logo">
+                <a href="">NavBar 4</a>
+            </div>
+            <div id="navbar4-links-wrapper">
+                <ul id="navbar4-links">
+                    <li class="navbar4-active-link">
+                        <a href="">Home</a>
+                    </li>
+                    <li class="navbar4-inactive-link">
+                        <a href="">Github</a>
+                    </li>
+                    <li class="navbar4-disabled-link">
+                        <a href="">Disabled</a>
+                    </li>
+                    <li id="navbar4-dropdown1" class="navbar4-inactive-link">
+                        <a href="">Dropdown1 <i class="fa-solid fa-caret-down"></i></a>
+                        <ul>
+                            <li><a href="">Action1</a></li>
+                            <li>
+                                <a  href="" id="navbar4-dropdown11">Dropdown1.1 <i class="fa-solid fa-caret-right"></i></a>
+                                <ul>
+                                    <li><a href="">Action1.1</a></li>
+                                    <li>
+                                        <a href="">Dropdown1.1.1 <i class="fa-solid fa-caret-right"></i></a>
+                                        <ul>
+                                            <li><a href="">Action1.1.1</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="navbar4-dropdown2" class="navbar4-inactive-link">
+                        <a href="">Dropdown2 <i class="fa-solid fa-caret-down"></i></a>
+                        <ul>
+                            <li><a href="">Action2</a></li>
+                            <li>
+                                <a  href="">Dropdown2.1 <i class="fa-solid fa-caret-right"></i></a>
+                                <ul>
+                                    <li><a href="">Action2.1</a></li>
+                                    <li>
+                                        <a href="">Dropdown2.1.1 <i class="fa-solid fa-caret-right"></i></a>
+                                        <ul>
+                                            <li><a href="">Action2.1.1</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="navbar4-searchForm">
+            <input type="text" placeholder="search">
+            <button>search</button>
+        </div>
+    </div>
+
+    <!--fifth-->
+    <div id="navbar5">
+        <div id="navbar5-logo">
+            <a href="">CAR DEALER</a>
+        </div>
+
+        <div id="navbar5-right">
+            <ul id="navbar5-links">
+                <li class="navbar5-link">
+                    <a class="navbar5-active-link" href="">Home</a>
+                    <div class="navbar5-link-underbar"></div>
+                </li>
+                <li class="navbar5-link">
+                    <a class="navbar5-inactive-link" href="">Shop Pre-Owned</a>
+                    <div class="navbar5-link-underbar"></div>
+                </li>
+                <li class="navbar5-link">
+                    <a class="navbar5-inactive-link" href="">Shop New Cars</a>
+                    <div class="navbar5-link-underbar"></div>
+                </li>
+                <li class="navbar5-link">
+                    <a class="navbar5-inactive-link" href="">Clearence Event</a>
+                    <div class="navbar5-link-underbar"></div>
+                </li>
+                <li id="navbar5-dropdown" class="navbar5-link">
+                    <a class="navbar5-inactive-link" href="">Resources <i class="fa-solid fa-caret-down"></i></a>
+                    <div class="navbar5-link-underbar"></div>
+                    <ul id="navbar5-dropdown-menu">
+                        <a href="">Carfax</a>
+                        <a href="">Carproof</a>
+                        <div class="navbar5-divider"></div>
+                        <a href="">Omnivic</a>
+                    </ul>
+                </li>
+                <li class="navbar5-link">
+                    <a class="navbar5-inactive-link" href="">About</a>
+                    <div class="navbar5-link-underbar"></div>
+                </li>
+                <li class="navbar5-link">
+                    <a class="navbar5-inactive-link" href="">Contact</a>
+                    <div class="navbar5-link-underbar"></div>
+                </li>
+            </ul>
+            <div id="navbar5-user-options">
+                <button id="navbar5-signin-btn">Sign In</button>
+                <button id="navbar5-register-btn">Register</button>
+            </div>
+        </div>
+    </div>
+
+    <!--sixth-->
+    <div id="navbar6">
+        <div id="navbar6-left">
+            <div id="navbar6-logo">
+                <a class="navbar6-inactive-link" href="">Login dropdown</a>
+            </div>
+
+            <div id="navbar6-links-wrapper">
+                <ul id="navbar6-links">
+                    <li class="navbar6-link">
+                        <a class="navbar6-active-link" href="">Link</a>
+                    </li>
+                    <li class="navbar6-link">
+                        <a class="navbar6-inactive-link" href="">Link</a>
+                    </li>
+                    <li id="navbar6-dropdown" class="navbar6-link">
+                        <a class="navbar6-inactive-link" href="">Dropdown <i class="fa-solid fa-caret-down"></i></a>
+                        <ul id="navbar6-dropdown-menu">
+                            <a href="">Action1</a>
+                            <a href="">Action2</a>
+                            <a href="">Something Else</a>
+                            <div class="navbar6-divider"></div>
+                            <a href="">Separated link</a>
+                            <div class="navbar6-divider"></div>
+                            <a href="">One more separated link</a>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="navbar6-searchForm">
+                <input type="text" placeholder="Search">
+                <button>Submit</button>
+            </div>
+        </div>
+
+        <div id="navbar6-right">
+            <p>Already have an account?</p>
+            <div id="navbar6-login-dropdown">
+                <a class="navbar6-inactive-link" href="">Login <i class="fa-solid fa-caret-down"></i></a>
+                <div id="navbar6-login-wrapper">
+                    <div id="navbar6-login">
+                        <div id="navbar6-other-login">
+                            <span>Login via</span>
+                            <div>
+                                <button id="navbar6-fb-btn"><i class="fa-brands fa-facebook-square"></i> Facebook</button>
+                                <button id="navbar6-tw-btn"><i class="fa-brands fa-twitter-square"></i> Twitter</button>
+                            </div>
+                        </div>
+                        <div id="navbar6-account-login">
+                            <form id="navbar6-login-form">
+                                <span>or</span>
+                                <input type="text" placeholder="Email address">
+                                <input type="text" placeholder="Password">
+                                <a href="">Forget the password?</a>
+                                <button id="navbar6-signin-btn">Sign in</button>
+                                <div id="navbar6-checkbox">
+                                    <label><input type="checkbox" id="navbar6-keeplogin"><span>Keep me logged-in</span></label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div id="navbar6-register">
+                        <span>New here?<a href="" id="navbar6-register-link"> Join Us</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--7-->
+    <div id="navbar7">
+        <div id="navbar7-logo">
+            <a href="">WebSiteName</a>
+        </div>
+
+        <div id="navbar7-links-wrapper">
+            <ul id="navbar7-links">
+                <li class="navbar7-active-link">
+                    <a href="">Home</a>
+                </li>
+                <li class="navbar7-inactive-link">
+                    <a href="">Page1</a>
+                </li>
+                <li class="navbar7-inactive-link">
+                    <a href="">Home</a>
+                </li>
+                <li class="navbar7-inactive-link">
+                    <a href="">Home</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--8-->
+    <div id="navbar8">
+        <div id="navbar8-logo">
+            <a href="">Company Logo</a>
+        </div>
+
+        <div id="navbar8-links-wrapper">
+            <ul id="navbar8-links">
+                <li>
+                    <a class="navbar8-link" href="">Home</a>
+                </li>
+                <li>
+                    <a class="navbar8-link" href="">About</a>
+                </li>
+                <li>
+                    <a class="navbar8-link" href="">Service</a>
+                </li>
+                <li>
+                    <a class="navbar8-link" href="">Team</a>
+                </li>
+                <li>
+                    <a class="navbar8-link" href="">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--9-->
+    <div id="navbar9">
+        <div>
+            <a id="navbar9-logo" href="">Company Logo</a>
+        </div>
+
+        <div id="navbar9-links-wrapper">
+            <ul id="navbar9-links">
+                <li id="navbar9-dropdown">
+                    <a href="">More <i class="fa-solid fa-caret-down"></i></a>
+                    <ul id="navbar9-dropdown-menu">
+                        <a href="">Page1</a>
+                        <a href="">Page2</a>
+                        <a href="">Page3</a>
+                    </ul>
+                </li>
+                <div id="navbar9-divider"></div>
+                <li>
+                    <a href="">Sign In</a>
+                </li>
+                <li id="navbar9-signup">
+                    <a href="">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+</body>
+</html>
