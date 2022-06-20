@@ -1050,3 +1050,134 @@ hr {
 #navbar9-signup a {
     color: white;
 }
+
+#navbar10 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(67, 66, 66);
+    height: 64px;
+}
+
+#navbar10-left {
+    display: flex;
+    align-items: center;
+}
+
+#navbar10-links {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+}
+
+.navbar10-link {
+    display: flex;
+    align-items: center;
+    height: 64px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.navbar10-link:hover {
+    background-color: black;
+}
+
+.navbar10-link a {
+    color: rgb(145, 145, 145);
+}
+
+.navbar10-link a:hover {
+    color: white;
+}
+
+#navbar10-logo {
+    font-family: monospace;
+    font-size: 24px;
+}
+
+#navbar10-logo:hover {
+    background-color:  rgb(67, 66, 66);
+}
+
+#navbar10-home {
+    background-color: black;
+}
+
+#navbar10-dropdown {
+    position: relative;
+}
+
+#navbar10-dropdown:hover > ul {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.25s;
+}
+
+.navbar10-dropdown-menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    top: 100%;
+    left: 0;
+    padding-left: 0;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.25s, opacity 0.25s;
+}
+
+.navbar10-dropdown-menu a {
+    color: black;
+    padding: 6px 6px 6px 8px;
+}
+
+.navbar10-dropdown-menu a:hover {
+    background-color: rgb(239, 238, 238);
+    color: black;
+}
+
+#navbar10-search {
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    border: none;
+    margin-left: 8px;
+}
+
+#navbar10-search input {
+    padding-left: 12px;
+    height: 32px;
+    outline: none;
+    border: none;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+#navbar10-search input:focus {
+    box-shadow: 0px 0px 8px rgb(46, 132, 175);
+}
+
+#navbar10-search-icon {
+    background-color: gainsboro;
+    height: 32px;
+    padding: 8px 8px 4px 8px;
+    border: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+#navbar10-user {
+    display: flex;
+    align-items: center;
+}
+
+#navbar10-user-dropdown {
+    position: relative;
+}
+
+#navbar10-user-dropdown:hover > ul {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0.25s, opacity 0.25s;
+}
