@@ -1,0 +1,221 @@
+li {
+    list-style: none;
+}
+
+/* 1 */
+.container-1 {
+    font-family: 'Times New Roman', Times, serif
+}
+
+.form-1 {
+    border: solid 1px grey;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    padding: 1em;
+    width: 25em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-1 label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-1 input,
+.form-1 select,
+.form-1 textarea {
+    outline: none;
+    border: solid 0.5px grey;
+    margin-top: 0.2em;
+    padding: 2px;
+}
+
+.form-1 input:focus,
+.form-1 select:focus,
+.form-1 textarea:focus {
+    box-shadow: 0px 0px 6px rgb(2, 174, 174);
+    transition: box-shadow 0.5s;
+}
+
+.textarea-1 {
+    min-height: 5em;
+}
+
+.btn-1 {
+    border: solid 0.5px grey;
+    background-color: rgb(3, 82, 113);
+    color: white;
+    width: 5em;
+    height: 2em;
+}
+
+.btn-1:hover {
+    cursor: pointer;
+}
+
+/* 2 */
+.container-2 {
+    margin-top: 10vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 0.5px grey;
+    padding: 1em;
+    width: 30%;
+}
+
+.title-2 > span {
+    font-style: italic;
+}
+
+.divider-2 {
+    width: 50%;
+    border: solid grey 1px;
+    background-color: grey;
+    margin-top: 0.5em;
+}
+
+.form-2 {
+    padding: 0;
+}
+
+.form-2 label {
+    display: block;
+	margin: 0px 0px 15px 0px;
+}
+
+.form-2 label > span {
+    width: 100px;
+	font-weight: bold;
+	float: left;
+	padding-top: 8px;
+	padding-right: 6px;
+}
+
+.form-2 input,
+.form-2 select {
+    box-sizing: border-box;
+    padding: 7px;
+    outline: none;
+}
+
+.tel-2 input {
+    width: 50px;
+}
+
+.require-2 {
+    color: red;
+}
+
+.form-2 input,
+.form-2 select,
+.form-2 textarea {
+    outline: none;
+    border: solid grey 1px;
+}
+
+
+.form-2 input:focus,
+.form-2 select:focus,
+.form-2 textarea:focus {
+    border: 1px solid green;
+}
+
+.btn-2 {
+    color: white;
+    background-color: orange;
+    border-radius: 2px;
+}
+
+.btn-2:hover {
+    cursor: pointer;
+    background: #EA7B00;
+}
+
+/* 3 */
+.container-3 {
+    margin-top: 10vh;
+}
+
+.form-3 {
+    width: 30%;
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tag-3 {
+    position: absolute;
+}
+
+.personal-3 {
+    position: relative;
+    background-color: rgb(252, 240, 242); 
+    padding: 1em;
+}
+
+.personal-3 li {
+    margin-top: 0.5em;
+}
+
+.personal-3 label {
+    min-width: auto;
+    display: block;
+}
+
+.form-3 label > span {
+    float: left;
+    width: 15%;
+    margin-right: 3em;
+}
+
+.tag-3 {
+    width: 4em;
+    top: -1em;
+    left: 1.5em;
+    border: solid pink 0.5px;
+    border-radius: 2px;
+    border-bottom: none;
+    padding: 2px;
+    text-align: center;
+    background-color: rgb(252, 240, 242);
+    color: pink;
+}
+
+.personal-3 label > span {
+    color: palevioletred;
+}
+
+.personal-3 input,
+.personal-3 select,
+.msg-3 textarea {
+    border: rgb(249, 195, 204) solid 2px;
+    outline: none;
+    background-color: rgb(250, 210, 216);
+}
+
+.msg-3 {
+    padding: 1em;
+    margin-top: 2em;
+    position: relative;
+    background-color: rgb(252, 240, 242);
+    height: 6em;
+}
+
+.msg-3 textarea {
+    height: 4em;
+    margin-bottom: 1em;
+}
+
+.btn-3 {
+    outline: none;
+    border: solid pink 1px;
+    background-color: palevioletred;
+    padding: 0.3em;
+}
+
+.btn-3:hover {
+    cursor: pointer;
+}
