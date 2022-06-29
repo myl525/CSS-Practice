@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
     <link rel="stylesheet" href="./src/stylesheet/styles.css">
+    <script src="./src/javascript/script.js"></script>
 </head>
 <body>  
     <!--1-->
@@ -182,8 +183,78 @@
         </form>
     </div>
 
+    <!--4-->
+    <div class="container-4">
+        <form class="form-4">
+            <label>
+                <span>Enter Your Name</span>
+                <input type="text" >
+            </label>
+            <label>
+                <span>Email Address</span>
+                <input type="text" >
+            </label>
+            <label>
+                <span>Short Subject</span>
+                <input type="text" >
+            </label>
+            <label>
+                <span>Message to Us</span>
+                <textarea onkeyup="adjust_textarea_4(this)"></textarea>
+            </label>
+            <label>
+                <span>&nbsp</span>
+                <input type="submit" class="btn-4" value="Send Letter">
+            </label>
+        </form>
+    </div>
 
+    <!--5-->
+    <div class="container-5">
+        <form class="form-5">
+            <fieldset class="candidate-info-5">
+                <legend><span class="number-5">1</span> Candidate Info</legend>
+                <input type="text" name="name-5" placeholder="Your Name*">
+                <input type="text" name="email-5" placeholder="Your Email*">
+                <textarea placeholder="About yourself"></textarea>
+                <label>
+                    <span>Interests:</span>
+                    <select>
+                        <optgroup label="Indoors">
+                            <option>Fishkeeping</option>
+                            <option>Reading</option>
+                            <option>Gaming</option>
+                        </optgroup>
+                        <optgroup label="Outdoors">
+                            <option>Hiking</option>
+                            <option>Running</option>
+                            <option>Swimming</option>
+                        </optgroup>
+                    </select>
+                </label>
+            </fieldset>
 
+            <fieldset class="additional-info-5">
+                <legend><span class="number-5">2</span> Additional Info</legend>
+                <textarea placeholder="About Your School"></textarea>
+            </fieldset>
+
+            <input class="btn-5" type="submit" value="Apply" >
+        </form>
+    </div>
+
+    <!--6-->
+    <div class="container-6">
+        <div class="header-6">
+            <h2>Contact Us</h2>
+        </div>
+        <form class="form-6">
+            <input type="text" name="name-6" placeholder="Your Name">
+            <input type="text" name="email-6" placeholder="Email Address">
+            <textarea placeholder="Type your Message"></textarea>
+            <input type="submit" value="Send" class="btn-6">
+        </form>
+    </div>
 
 </body>
 </html>
