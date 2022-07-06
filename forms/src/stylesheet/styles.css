@@ -909,3 +909,55 @@ li {
     box-shadow: none;
     transition: box-shadow 0.5s;
 }
+
+/* 13 */
+.container-13 {
+    margin-top: 10vh;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    
+}
+
+.form-13 {
+    width: 100%;
+    padding: 2em;
+    background-color: darkblue;
+}
+
+.form-13 input {
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+    height: 4em;
+    border-radius: 1em;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+.form-13 input[type=text] {
+    background-color: rgb(183, 183, 183);
+    padding: 0.5em 0 0.5em 1.5em;
+}
+
+.form-13 input[type=text]::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+
+.form-13 h1 > span {
+    display: block;
+    font-size: 0.5em;
+}
+
+.form-13 input[type=submit] {
+    background-color: skyblue;
+    color: white;
+}
+
+.form-13 input[type=submit]:hover {
+    cursor: pointer;
+    background-color: rgb(101, 157, 179);
+}
