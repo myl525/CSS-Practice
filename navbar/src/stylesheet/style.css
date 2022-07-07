@@ -1181,3 +1181,105 @@ hr {
     opacity: 1;
     transition: visibility 0.25s, opacity 0.25s;
 }
+
+/* 11 */
+.nav-11 {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    background-color: aliceblue;
+}
+
+.nav-11 * {
+    box-sizing: border-box;
+}
+
+.logo-11 {
+    font-size: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.home-11 {
+    font-size: 1.5em;
+}
+
+.middle-11 {
+    width: 40%;
+    background-color: wheat;
+    margin-left: 10em;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    border-radius: 0.5em;
+}
+
+.middle-11 span {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.middle-11 input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom-right-radius: inherit;
+    border-top-right-radius: inherit;
+    font-size: 1.5em;
+}
+
+.middle-11 input:focus {
+    box-shadow: 0 0 0.5em skyblue;
+}
+
+.right-11 {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.right-11 > a {
+    padding: 0.5em;
+}
+
+.right-11 > a:hover {
+    background-color: gainsboro;
+}
+
+.divider-11 {
+    background-color: gainsboro;
+    border: gainsboro solid 1px;
+    height: 3em;
+}
+
+.dropdown-11 {
+    margin-left: 5em;
+    position: relative;
+}
+
+.dropdown-11:hover ul{
+    visibility: visible;
+}
+
+.dropdown-menu-11 {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: aliceblue;
+    padding-left: 0;
+}
+
+.dropdown-menu-11 {
+    visibility: hidden;
+}
+
+.dropdown-menu-11 > a {
+    display: block;
+    background-color: beige;
+    padding: 6px 14px;
+}
+
+.dropdown-menu-11 > a:hover {
+    background-color: rgb(171, 171, 151);
+}
