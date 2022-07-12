@@ -1,0 +1,124 @@
+a {
+    text-decoration: none;
+}
+
+
+/* 1 */
+.upper-1 {
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(246, 68, 68), orange);
+}
+
+.upper-1-container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    max-width: 750px;
+    line-height: 2rem;
+}
+
+.upper-1 a {
+    color: white;
+    text-decoration: underline;
+}
+
+.middle-1 {
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.middle-1 > ul {
+    margin: 0;
+}
+
+.middle-1-left {
+    width: 25%;
+}
+
+.middle-1-left > p {
+    font-style: italic;
+    line-height: 1.5rem;
+}
+
+.middle-1-left > ul {
+    margin-top: 2rem;
+    padding: 0;
+}
+
+.middle-1-left ul > a {
+    color: orange;
+    margin: .25rem;
+}
+
+.middle-1  h1 {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.middle-1 > ul {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    gap: 0.5rem;
+}
+
+.middle-1 > ul > a {
+    color: gray;
+}
+
+.middle-1 > ul > a:hover {
+    text-decoration: underline;
+}
+
+.middle-1-right {
+    width: 25%;
+    line-height: 1.5rem;
+}
+
+.middle-1-right form > div {
+    border: lightgray solid 0.5px;
+    outline: none;
+    border-radius: .25rem;
+    height: 2em;
+    width: 80%;
+    
+}
+
+.input-1 {
+    box-sizing: border-box;
+    padding-left: 1rem;
+    outline: none;
+    border: none;
+    width: 90%;
+    height: 100%;
+}
+
+.input-1::placeholder {
+    font-style: italic;
+    color: lightgray;
+}
+
+.btn-1 {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: orange;
+}
+
+.btn-1:hover {
+    cursor: pointer;;
+}
+
+.lower-1 {
+    background-color: rgb(242, 242, 242);
+    padding: 2.5rem;
+    text-align: center;
+    color: rgb(166, 165, 165);
+}
+
