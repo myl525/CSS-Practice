@@ -12,3 +12,7 @@ function adjust_textarea_8(ta) {
     ta.style.height = "26px";
     ta.style.height = (ta.scrollHeight) + "px";
 }
+
+function click_14(input) {
+    input.parentNode.style.border = 'orange solid 1px';
+}

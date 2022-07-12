@@ -961,3 +961,95 @@ li {
     cursor: pointer;
     background-color: rgb(101, 157, 179);
 }
+
+/* 14 */
+.container-14 {
+    margin-top: 10vh;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-14 {
+    padding: 2rem;
+    box-shadow: 0 0 16px lightgray;
+}
+
+.form-14 > fieldset {
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.form-14 legend {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0;
+    margin-bottom: 1rem;
+    color: orange;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.account-14 > div {
+    position: relative;
+    margin-bottom: 1rem;
+    border: lightgray solid 0.5px;
+    border-radius: 0.2rem;
+    color: lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.account-14 span {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 1rem;
+}
+
+.divider-14 {
+    background: lightgray;
+    border: solid lightgray 0.5px;
+    height: 2rem;
+}
+
+.account-14 > div > input {
+    padding: 0 1rem;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+.dob-14 {
+    float: left;
+    width: 45%;
+}
+
+.dob-14 > input {
+    width: 15%;
+    padding: .7rem;
+    outline: none;
+}
+
+.gender-14 {
+    font-size: 0;
+}
+.gender-14 > button {
+    display: inline;
+    box-sizing: border-box;
+    width: 45%;
+    padding: 1.5rem;
+    border: lightgray solid 0.5px;
+}
+
+.gender-14 > button:active {
+    background-color: orange;
+}
+
+.tac-14 {
+    display: flex;
+    color: lightgray;
+}
+
+.tac-14 input[type=checkbox] {
+    accent-color: orange;
+    color: white;
+}
